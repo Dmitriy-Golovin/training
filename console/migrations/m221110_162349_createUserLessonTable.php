@@ -41,7 +41,7 @@ class m221110_162349_createUserLessonTable extends Migration
             'lessonId',
             '{{%lesson}}',
             'lessonId',
-            'SET NULL'
+            'CASCADE'
         );
     }
 
